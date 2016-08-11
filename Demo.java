@@ -16,9 +16,10 @@ public class Demo {
 
     Exportador e = new Exportador();
     e.mostrarMercadosAExportarPorProducto();
-    
+
     Curso c = new Curso();
     c.calcularPromediosPorAlumno();
+    c.calcularPromediosPorAsignatura();
     c.calcularPromedioCurso();
   }
 }
