@@ -21,5 +21,14 @@ public class Demo {
     c.calcularPromediosPorAlumno();
     c.calcularPromediosPorAsignatura();
     c.calcularPromedioCurso();
+    
+    /************/
+    /* Edificio */
+    /************/
+    Edificio ed = new Edificio();
+    ed.mostrarEdificio();
+    ed.calcularNumeroDeHabitantesPorPiso();
+    ed.determinarNumeroDeDepartamentosConSolPorLaTarde();
+    ed.calcularNumeroDeHabitantesPorLado();
   }
 }
