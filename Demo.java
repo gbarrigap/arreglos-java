@@ -21,7 +21,7 @@ public class Demo {
     c.calcularPromediosPorAlumno();
     c.calcularPromediosPorAsignatura();
     c.calcularPromedioCurso();
-    
+
     /************/
     /* Edificio */
     /************/
@@ -30,5 +30,12 @@ public class Demo {
     ed.calcularNumeroDeHabitantesPorPiso();
     ed.determinarNumeroDeDepartamentosConSolPorLaTarde();
     ed.calcularNumeroDeHabitantesPorLado();
+
+    /*******/
+    /* Bus */
+    /*******/
+    Bus bus = new Bus();
+    bus.calcularCantidadDeAsientosOcupadosPasillo();
+    bus.calcularCantidadDeAsientosOcupadosVentana();
   }
 }
